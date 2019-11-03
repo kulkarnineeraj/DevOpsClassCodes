@@ -294,7 +294,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-site-plugin</artifactId>
-                        <version>3.3</version>
+                        <version>3.0</version>
                         <configuration>
                             <reportPlugins>
                                 <plugin>
@@ -404,7 +404,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-site-plugin</artifactId>
-                        <version>3.2</version>
+                        <version>3.0</version>
                         <dependencies>
                             <dependency>
                                 <groupId>com.edurekademo.tutorial</groupId>
