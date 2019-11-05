@@ -112,7 +112,12 @@
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>1.7.7</version>
 		</dependency>
-
+	<dependency>
+    <groupId>com.sun</groupId>
+    <artifactId>tools</artifactId>
+    <version>1.5.0</version>
+    <scope>system</scope>
+</dependency>
 				<!-- TESTING -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -412,11 +417,7 @@
                                 <version>${project.version}</version>
                             </dependency>
 				<dependency>
-    <groupId>com.sun</groupId>
-    <artifactId>tools</artifactId>
-    <version>1.5.0</version>
-    <scope>system</scope>
-</dependency>
+
 				
                         </dependencies>
                     </plugin>
