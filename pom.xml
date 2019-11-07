@@ -154,7 +154,12 @@
 			<artifactId>xml-security-impl</artifactId>
 			<version>1.0</version>
 		</dependency>
-
+               <exclusions>
+               <exclusion>
+                <artifactId>tools</artifactId>
+                <groupId>com.sun</groupId>
+              </exclusion>
+             </exclusions>
 
 		</dependencies>
 
@@ -206,12 +211,7 @@
         <version>2.19.1</version>
       </plugin>
     </plugins>
-    <exclusions>
-            <exclusion>
-                <artifactId>tools</artifactId>
-                <groupId>com.sun</groupId>
-            </exclusion>
-    </exclusions>
+    
   </reporting>
   
       <profiles>
