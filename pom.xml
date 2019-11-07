@@ -91,6 +91,13 @@
             <version>1.9.2</version>
             <type>jar</type>
         </dependency>
+	<dependency>
+          <groupId>com.sun</groupId>
+         <artifactId>tools</artifactId>
+         <version>1.6</version>
+         <scope>system</scope>
+          <systemPath>C:\Program Files\Java\jdk-13.0.1\bin\tools.jar</systemPath>
+       </dependency>
 		
 				<!-- LOGGING -->
 		<dependency>
@@ -154,12 +161,7 @@
 			<artifactId>xml-security-impl</artifactId>
 			<version>1.0</version>
 		</dependency>
-               <exclusions>
-               <exclusion>
-                <artifactId>tools</artifactId>
-                <groupId>com.sun</groupId>
-              </exclusion>
-             </exclusions>
+               
 
 		</dependencies>
 
